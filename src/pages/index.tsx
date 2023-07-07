@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           /* {data?.map((post) =>(<div key={post.id}>{post.content}</div>))} */
         </div>
-        
+        <h1>hola</h1>
         
       </main>
     </>
