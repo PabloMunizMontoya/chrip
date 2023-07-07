@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+
 import { api } from "~/utils/api";
 import { SignIn } from "@clerk/nextjs";
 import { SignInButton } from "@clerk/nextjs"
@@ -29,9 +29,9 @@ export default function Home() {
           <SignIn path="/sign-in" routing="path" signUpUrl="/sign-up" />
         </div>
         <div>
-          /* {data?.map((post) =>(<div key={post.id}>{post.content}</div>))} */
+          {data?.map((post) =>(<div key={post.id}>{post.content}</div>))} 
         </div>
-        <h1>hola</h1>
+        
         
       </main>
     </>
